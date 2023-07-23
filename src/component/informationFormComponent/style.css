@@ -1,0 +1,7 @@
+.inputFormStyle {
+    background-color: #fff;
+}
+.inputFormStyle.h-32{
+    background-color: #fff;
+    height: 8.5rem;
+}

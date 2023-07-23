@@ -1,5 +1,5 @@
 {
-    "Soby": "Soby",
+    "Soby": "صبحي",
     "Home": "الرئيسة",
     "About": "عن",
     "Branding": "العلامة التجارية",
@@ -31,5 +31,25 @@
     "SOBY© 2023 COPYRIGHT":"SOBY © 2023 حقوق الطبع والنشر",
     "Privacy Policy":"سياسة الخصوصية",
     "Don’t hear only from us":"لا تسمع منا فقط",
-    "Testimonials":"التوصيات"
+    "Testimonials":"التوصيات",
+    "Companies":"شركات",
+    "We Serve":"نحن نخدم",
+    "Join":"انضم",
+    "My Network":"شبكتي",
+    "Book":"كتاب",
+    "A Consulation":"استشارة",
+    "Contact Me in 3 Easy Steps:":"تواصل معي في 3 خطوات سهلة:",
+    "Fill out the contact form":"املأ نموذج الاتصال",
+    "Schedule a free 30-minute Zoom meeting.":"حدد موعدًا لاجتماع Zoom مجاني مدته 30 دقيقة.",
+    "Receive personalized assistance for your needs.":"احصل على مساعدة مخصصة لاحتياجاتك.",
+    "Find out more":"اكتشف المزيد",
+    "What is required":"ما هو المطلوب",
+    "Your information":"معلوماتك",
+    "Urgency Level":"مستوى الاستعجال",
+    "Connect with":"متصل مع",
+    "Send":"ارسل",
+    "Name":"اسم",
+    "Email":"بريد إلكتروني",
+    "Mobile":"موبايل",
+    "Message":"رسالة"
 }

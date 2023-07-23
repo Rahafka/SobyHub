@@ -23,42 +23,42 @@ export const socialMenuIcon = [
     {
         key: "key_youtube",
         icon: youtubeIcon,
-        url: "/",
+        url: "https://www.youtube.com/@asksoby",
     },
     {
         key: "key_insta",
         icon: instaIcon,
-        url: "/",
+        url: "https://www.instagram.com/asksoby/",
     },
     {
         key: "key_tiktok",
         icon: tiktokIcon,
-        url: "/",
+        url: "https://www.tiktok.com/@asksoby",
     },
     {
         key: "key_telegram",
         icon: telegramIcon,
-        url: "/",
+        url: "https://t.me/asksoby",
     },
     {
         key: "key_whatsup",
         icon: whatsupIcon,
-        url: "/",
+        url: "https://api.whatsapp.com/send/?phone=%2B971556766748&text&type=phone_number&app_absent=0",
     },
     {
         key: "key_linkend",
         icon: linkendIcon,
-        url: "/",
+        url: "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEyn90jKp4q_wAAAYmDyJkIO7gPC_esuy4on7bC7J5pQVYd407ALyqQlfc0hgIvt71Pr0-oeNMakHBp8DJePRftS8gkWhAR6traOhIA2p0HZT1JDMuThREE16j9FDw5WudWf2g=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fasksoby",
     },
     {
         key: "key_facebook",
         icon: facebookIcon,
-        url: "/",
+        url: "https://m.facebook.com/asksoby?_rdr",
     },
     {
         key: "key_twitter",
         icon: twitterIcon,
-        url: "/",
+        url: "https://twitter.com/i/flow/login?redirect_after_login=%2Fasksoby",
     },
 
 ];
@@ -67,42 +67,42 @@ export const socialMenuIconLight = [
     {
         key: "key_youtube",
         icon: youtubeIconLight,
-        url: "/",
+        url: "https://www.youtube.com/@asksoby",
     },
     {
         key: "key_insta",
         icon: instaIconLight,
-        url: "/",
+        url: "https://www.instagram.com/asksoby/",
     },
     {
         key: "key_tiktok",
         icon: tiktokIconLight,
-        url: "/",
+        url: "https://www.tiktok.com/@asksoby",
     },
     {
         key: "key_telegram",
         icon: telegramIconLight,
-        url: "/",
+        url: "https://t.me/asksoby",
     },
     {
         key: "key_whatsup",
         icon: whatsupIconLight,
-        url: "/",
+        url: "https://api.whatsapp.com/send/?phone=%2B971556766748&text&type=phone_number&app_absent=0",
     },
     {
         key: "key_linkend",
         icon: linkendIconLight,
-        url: "/",
+        url: "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEyn90jKp4q_wAAAYmDyJkIO7gPC_esuy4on7bC7J5pQVYd407ALyqQlfc0hgIvt71Pr0-oeNMakHBp8DJePRftS8gkWhAR6traOhIA2p0HZT1JDMuThREE16j9FDw5WudWf2g=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fasksoby",
     },
     {
         key: "key_facebook",
         icon: facebookIconLight,
-        url: "/",
+        url: "https://m.facebook.com/asksoby?_rdr",
     },
     {
         key: "key_twitter",
         icon: twitterIconLight,
-        url: "/",
+        url: "https://twitter.com/i/flow/login?redirect_after_login=%2Fasksoby",
     },
 
 ];

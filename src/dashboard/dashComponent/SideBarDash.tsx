@@ -1,39 +1,19 @@
 import React from "react";
-import {
-  Card,
-  Typography,
-  List,
-  ListItem,
-  ListItemPrefix,
-  ListItemSuffix,
-  Chip,
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
-  Alert,
+import { Card, Typography, List, ListItem, ListItemPrefix, ListItemSuffix, Chip, Accordion, AccordionHeader,AccordionBody, Alert,
 } from "@material-tailwind/react";
-import {
-  PresentationChartBarIcon,
-  ShoppingBagIcon,
-  UserCircleIcon,
-  Cog6ToothIcon,
-  InboxIcon,
-  PowerIcon,
+import {PresentationChartBarIcon,ShoppingBagIcon,UserCircleIcon,Cog6ToothIcon,InboxIcon, PowerIcon,
 } from "@heroicons/react/24/solid";
-import {
-  ChevronRightIcon,
-  ChevronDownIcon,
-  CubeTransparentIcon,
+import { ChevronRightIcon, ChevronDownIcon, CubeTransparentIcon,
 } from "@heroicons/react/24/outline";
- 
+
 const SideBarDash = () => {
   const [open, setOpen] = React.useState(0);
   const [openAlert, setOpenAlert] = React.useState(true);
- 
+
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value);
   };
- 
+
   return (
     <Card className="fixed top-4 left-0 h-[calc(100vh-1rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
       <div className="mb-2 flex items-center gap-4 p-4">
@@ -43,17 +23,22 @@ const SideBarDash = () => {
         </Typography>
       </div>
       <List>
-        <Accordion
+        {/* <Accordion
           open={open === 1}
           icon={
             <ChevronDownIcon
               strokeWidth={2.5}
-              className={`mx-auto h-4 w-4 transition-transform ${open === 1 ? "rotate-180" : ""}`}
+              className={`mx-auto h-4 w-4 transition-transform ${
+                open === 1 ? "rotate-180" : ""
+              }`}
             />
           }
         >
           <ListItem className="p-0" selected={open === 1}>
-            <AccordionHeader onClick={() => handleOpen(1)} className="border-b-0 p-3">
+            <AccordionHeader
+              onClick={() => handleOpen(1)}
+              className="border-b-0 p-3"
+            >
               <ListItemPrefix>
                 <PresentationChartBarIcon className="h-5 w-5" />
               </ListItemPrefix>
@@ -90,12 +75,17 @@ const SideBarDash = () => {
           icon={
             <ChevronDownIcon
               strokeWidth={2.5}
-              className={`mx-auto h-4 w-4 transition-transform ${open === 2 ? "rotate-180" : ""}`}
+              className={`mx-auto h-4 w-4 transition-transform ${
+                open === 2 ? "rotate-180" : ""
+              }`}
             />
           }
         >
           <ListItem className="p-0" selected={open === 2}>
-            <AccordionHeader onClick={() => handleOpen(2)} className="border-b-0 p-3">
+            <AccordionHeader
+              onClick={() => handleOpen(2)}
+              className="border-b-0 p-3"
+            >
               <ListItemPrefix>
                 <ShoppingBagIcon className="h-5 w-5" />
               </ListItemPrefix>
@@ -120,28 +110,34 @@ const SideBarDash = () => {
               </ListItem>
             </List>
           </AccordionBody>
-        </Accordion>
-        <hr className="my-2 border-blue-gray-50" />
+        </Accordion> */}
+        {/* <hr className="my-2 border-blue-gray-50" /> */}
         <ListItem>
           <ListItemPrefix>
             <InboxIcon className="h-5 w-5" />
           </ListItemPrefix>
-          Inbox
-          <ListItemSuffix>
-            <Chip value="14" size="sm" variant="ghost" color="blue-gray" className="rounded-full" />
-          </ListItemSuffix>
+          Home
+          {/* <ListItemSuffix>
+            <Chip
+              value="14"
+              size="sm"
+              variant="ghost"
+              color="blue-gray"
+              className="rounded-full"
+            />
+          </ListItemSuffix> */}
         </ListItem>
         <ListItem>
           <ListItemPrefix>
             <UserCircleIcon className="h-5 w-5" />
           </ListItemPrefix>
-          Profile
+          About
         </ListItem>
         <ListItem>
           <ListItemPrefix>
             <Cog6ToothIcon className="h-5 w-5" />
           </ListItemPrefix>
-          Settings
+          Branding
         </ListItem>
         <ListItem>
           <ListItemPrefix>
@@ -150,7 +146,7 @@ const SideBarDash = () => {
           Log Out
         </ListItem>
       </List>
-      <Alert open={openAlert} className="mt-auto" onClose={() => setOpenAlert(false)}>
+      {/* <Alert open={openAlert} className="mt-auto" onClose={() => setOpenAlert(false)}>
         <CubeTransparentIcon className="mb-4 h-12 w-12" />
         <Typography variant="h6" className="mb-1">
           Upgrade to PRO
@@ -173,9 +169,9 @@ const SideBarDash = () => {
             Upgrade Now
           </Typography>
         </div>
-      </Alert>
+      </Alert> */}
     </Card>
   );
-}
+};
 
-export default SideBarDash
+export default SideBarDash;
